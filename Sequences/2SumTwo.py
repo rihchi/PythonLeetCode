@@ -1,6 +1,5 @@
 from typing import List
 
-
 def twoSum(nums: List[int], target: int) -> List[int]:
     l, r = 0, len(nums) - 1
     while l != r:
@@ -15,8 +14,8 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     return []
 
 
-# numList: List[int] = [2, 7, 11, 15]
-numList: List[int] = [2, 3, 4]
+numList: List[int] = [2, 7, 11, 15]
+# numList: List[int] = [2, 3, 4]
 target: int = 9
 res = twoSum(numList, target)
 print(res)
